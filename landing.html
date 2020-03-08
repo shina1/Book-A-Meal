@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Book Your Meal</title>
+    <link rel="stylesheet" href="css/plugins/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="css/land.css">
+</head>
+<body>
+    
+    <main style="background-image: url('image/background/foodOfDaySection.png');"><!-- the entire body of the landing page -->
+        <!-- the head section of the page -->
+        <header>
+            <div class="head">
+                <div class="head-text">
+                   <nav>
+                        <ul>
+                            <li><a href="#middle-section">Trending</a></li>
+                            <li><a href="#">Most Popular</a></li>
+                            <li><a href="#">Food of The Day</a></li>
+                        </ul>
+                   </nav>
+                    <!-- <div name="account" id="account">
+                            <p>Account</p>
+                            <div id="list">
+                                <li><a href="#">Profile</a></li>
+                                <li><a href="#">Order</a></li>
+                                <li><a href="#">Logout</a></li>
+                            </div>
+                        </div> -->
+                        <!-- cart html structure -->
+                    <div class="cart" id="cart-info">
+                        <span class="cart-info-icon">
+                            <i class="fa fa-shopping-cart"></i>
+                        </span>
+                        <p class="mb-0 text-capitalize">
+                            <span id="item-count">0 </span> items - $<span class="item-total">0.00</span>
+                        </p>         
+                    </div>
+                </div>
+                
+                <div class="head-serch">
+                        <i class="fa fa-search"></i> <input type="text" placeholder="Search..." autofocus>
+                </div>
+                <!-- cart section -->
+                <div id="cart" class="cart1">
+                    <!-- cart item -->
+                    <!-- <div class="cart-item ">
+                      <img src="image/bread-2.jpg" class="img-fluid" id="item-img" alt="">
+                      <div class="item-text">
+                        <p id="cart-item-title" class="font-weight-bold mb-0">cart item</p>
+                        <span id="dollar">$</span>
+                        <span id="cart-item-price" class="cart-item-price" class="mb-0">10.99</span>
+                      </div>
+                      <a href="#" id='cart-item-remove' class="cart-item-remove">
+                        <i class="fa fa-trash"></i>
+                      </a>
+                    </div>   -->
+                    <!--end of  cart item -->
+                    <!-- cart item -->
+                    <!-- <div class="cart-item">
+                      <img src="image/beta food.jpg" id="item-img" class="img-fluid" alt="">
+                      <div class="item-text">
+                        <p id="cart-item-title" class="font-weight-bold mb-0">cart item</p>
+                        <span id="dollar">$</span>
+                        <span id="cart-item-price" class="cart-item-price" class="mb-0">10.99</span>
+                      </div>
+                      <a href="#" id='cart-item-remove' class="cart-item-remove">
+                        <i class="fa fa-trash"></i>
+                      </a>
+                    </div> -->
+                    <!--end of  cart item -->
+                    <!-- cart total -->
+                    <div class="cart-total-container mt-3">
+                      <h5>total</h5>
+                      <h5> $ <strong id="cart-total" class="font-weight-bold">0.00</strong> </h5>
+                    </div>
+                    <!--end cart total -->
+                    <!-- cart buttons -->
+                    <div class="cart-buttons-container mt-3">
+                      <a href="#middle-section" id="clear-cart" class="btn">Continue Shopping</a>
+                      <a href="review.html" class="btn btn-outline-secondary text-uppercase btn-pink">checkout</a>
+                    </div>
+                    <!--end of  cart buttons -->
+                    <!--  -->
+                </div>
+            </div>
+        </header>
+        <!-- banner section -->
+        <section class="banner" style="background-image: url('image/1.jpg'); background-repeat: no-repeat;">
+            <div class="banner-text">
+                <p>lorem</p>
+            </div>
+        </section>
+        <!-- banner end -->
+        <!-- the middle section of the page -->
+        <section class="middle-section" id="middle-section">
+            <div class="first-child">
+                <p>Trending this week</p>
+                <p>View All <i class="fa fa-angle-double-right"></i> </p>
+            </div>
+            <div class="cards">
+                    <div class="card">
+                            <div class="image">
+                                <img src="image/desert.jpg" alt="" class="meal-image">
+                                <span class="meal-item-icon">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                            <div class="card-bottom">
+                                <div class="bottom-text">
+                                    <p>Crispy Chicken Sandwich</p>
+                                    <p>Iya Yusuf Kitchen</p>
+                                </div>
+                                <div class="star">
+                                    <div id="stars">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                    </div>
+                                    <p id="price"><i class="fa fa-eur">200</i></p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="card">
+                                <div class="image">
+                                    <img src="image/jollof-rice.jpg" alt="" class="meal-image">
+                                    <span class="meal-item-icon">
+                                            <i class="fa fa-shopping-cart"></i>
+                                    </span>
+                                </div>
+                                <div class="card-bottom">
+                                    <div class="bottom-text">
+                                        <p>Rice and Stake</p>
+                                        <p>Iya Yusuf Kitchen</p>
+                                    </div>
+                                    <div class="star">
+                                        <div id="stars">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        <p id="price"><i class="fa fa-eur">200</i></p>
+                                    </div>
+                                </div>
+                    </div>
+                    <div class="card">
+                            <div class="image">
+                                <img src="image/cemovita.jpg" alt="" class="meal-image">
+                                <span class="meal-item-icon">
+                                        <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                            <div class="card-bottom">
+                                <div class="bottom-text">
+                                    <p>Nigerian Jollof</p>
+                                    <p>Iya Yusuf Kitchen</p>
+                                </div>
+                                <div class="star">
+                                    <div id="stars">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-o"></i>
+                                    </div>
+                                    <p id="price"><i class="fa fa-eur">1800</i></p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="image/biscotti-193518_640.jpg" alt="" class="meal-image">
+                            <span class="meal-item-icon">
+                                    <i class="fa fa-shopping-cart"></i>
+                            </span>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="bottom-text">
+                                <p>Agege Bread</p>
+                                <p>Iya Yusuf Kitchen</p>
+                            </div>
+                            <div class="star">
+                                <div id="stars">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <p id="price"><i class="fa fa-eur">150</i></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                            <div class="image">
+                                <img src="image/pizer1.jpg" alt="" class="meal-image">
+                                <span class="meal-item-icon">
+                                        <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                            <div class="card-bottom">
+                                <div class="bottom-text">
+                                    <p>Pizza</p>
+                                    <p>Iya Yusuf Kitchen</p>
+                                </div>
+                                <div class="star">
+                                    <div id="stars">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                    </div>
+                                    <p id="price"><i class="fa fa-eur">2500</i></p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="image/bread-2.jpg" alt="" class="meal-image">
+                            <span class="meal-item-icon">
+                                    <i class="fa fa-shopping-cart"></i>
+                            </span>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="bottom-text">
+                                <p>Bready Oyo</p>
+                                <p>Iya Yusuf Kitchen</p>
+                            </div>
+                            <div class="star">
+                                <div id="stars">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <p id="price"><i class="fa fa-eur">300</i></p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <!-- bottom section -->
+        <section class="bottom-section" id="bottom-section">
+            <div class="bottom2-text">
+                <p>Most Popular</p>
+                <p>20 More <i class="fa fa-angle-double-right"></i></p>
+            </div>
+            <div class="bottom-cards">
+                <div class="card1 card-bot">
+                    <img src="image/delicacy1.jpg" alt="">
+                </div>
+                <div class="card2 card-bot">
+                        <img src="image/beta food.jpg" alt="">
+                </div>
+                <div class="card3 card-bot">
+                        <img src="image/FB_IMG_1550134587145.jpg" alt="">
+                </div>
+                <div class="card4 card-bot">
+                        <img src="image/FB_IMG_1542527264816.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- food of the day section -->
+        <section class="food-day">
+            <div class="day-text">
+                <p>Food Of The Day</p>
+            </div>
+            <div class="cards">
+                    <div class="card">
+                            <div class="image">
+                                <img src="image/background-2561_640.jpg" alt="" class="meal-image">
+                                <span class="meal-item-icon">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                            <div class="card-bottom">
+                                <div class="bottom-text">
+                                    <p>Fortunate Bread</p>
+                                    <p>Fortunate</p>
+                                </div>
+                                <div class="star">
+                                    <div id="stars">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                    </div>
+                                    <p id="price"><i class="fa fa-eur">200</i></p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="card">
+                                <div class="image">
+                                    <img src="image/taya.jpg" alt="" class="meal-image">
+                                    <span class="meal-item-icon">
+                                            <i class="fa fa-shopping-cart"></i>
+                                    </span>
+                                </div>
+                                <div class="card-bottom">
+                                    <div class="bottom-text">
+                                        <p>Pink Taya</p>
+                                        <p>Nice Bakers</p>
+                                    </div>
+                                    <div class="star">
+                                        <div id="stars">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        <p id="price"><i class="fa fa-eur">200</i></p>
+                                    </div>
+                                </div>
+                    </div>
+                    <div class="card">
+                            <div class="image">
+                                <img src="image/bread-257148_640.jpg" alt="" class="meal-image">
+                                <span class="meal-item-icon">
+                                        <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                            <div class="card-bottom">
+                                <div class="bottom-text">
+                                    <p>Slice Bread</p>
+                                    <p>Oven Bakers</p>
+                                </div>
+                                <div class="star">
+                                    <div id="stars">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-o"></i>
+                                    </div>
+                                    <p id="price"><i class="fa fa-eur">200</i></p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="image/breakfast.jpg" alt="" class="meal-image">
+                            <span class="meal-item-icon">
+                                    <i class="fa fa-shopping-cart"></i>
+                            </span>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="bottom-text">
+                                <p>Crispy Chicken Sandwich</p>
+                                <p>Iya Yusuf Kitchen</p>
+                            </div>
+                            <div class="star">
+                                <div id="stars">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <p id="price"><i class="fa fa-eur">200</i></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                            <div class="image">
+                                <img src="image/pizerfull.jpg" alt="" class="meal-image">
+                                <span class="meal-item-icon">
+                                        <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                            <div class="card-bottom">
+                                <div class="bottom-text">
+                                    <p>Crispy Chicken Sandwich</p>
+                                    <p>Iya Yusuf Kitchen</p>
+                                </div>
+                                <div class="star">
+                                    <div id="stars">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                    </div>
+                                    <p id="price"><i class="fa fa-eur">200</i></p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="image/cake.jpg" alt="" class="meal-image">
+                            <span class="meal-item-icon">
+                                    <i class="fa fa-shopping-cart"></i>
+                            </span>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="bottom-text">
+                                <p>Crispy Chicken Sandwich</p>
+                                <p>Iya Yusuf Kitchen</p>
+                            </div>
+                            <div class="star">
+                                <div id="stars">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <p id="price"><i class="fa fa-eur">200</i></p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <footer>
+            <div class="adress">
+                <p>   
+                    You were required to create a server directory in your repository and
+                    project directory in challenge 1. The“server” directory would contain the
+                    server-side implementation you come up with in this challenge required to
+                    power the front-end.
+                </p>
+            </div>
+            <div class="nav-class">
+                    <div class="nav-CS">
+                            <h4>Customer Service</h4>
+                            <nav>
+                                <ul>
+                                    <li>contact us</li>
+                                    <li>FAQ</li>
+                                    <li>Privacy Policy</li>
+                                    <li>Terms and Condition</li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="nav-account">
+                            <nav>
+                                <h4>My Account</h4>
+                                <ul>
+                                    <li>Account Information</li>
+                                    <li>My Order</li>
+                                    <li>Logout</li>
+                                </ul>
+                            </nav>
+                        </div>
+            </div>
+            <div class="social-icons">
+                <h4>Follow Us</h4>
+                <div class="the-icons-gangan">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-google"></i>
+                    <i class="fa fa-instagram"></i>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="js/cart.js"></script>
+    <script src="js/nav.js"></script>
+</body>
+</html>

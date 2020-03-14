@@ -1,0 +1,302 @@
+/*############################ useful colors ################################## */
+:root{
+    --mainYellow: rgb(249, 228, 148, 0.8);
+    --mainWhite: #fff;
+    --mainBlack:#000;
+    --mainRed: #a80000;
+    --main1:#e7d0a4;
+    --main2: #fd981e;
+    --main3: #9a9b9d;
+    --main4: #a76620;
+    --main5: #47494d;
+    --mainFacebook:#3b5998;
+    --mainTwitter: #55acee;
+    --mainInstagram:#3f729b;
+    --mainGoogle: #dc4e41;
+    --mainWatsapp:#43d854;
+    --mainGithub:#00405d;
+    --mainSnapChat:#fffa37;
+    --dasLeft:#2c304d;
+}
+
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    margin: 0 auto;
+    /* border: 2px solid black; */
+    max-width: 470px;
+    height:650px;
+}
+main{
+    display:flex;
+    /* border: 2px solid red; */
+    width: 463px;
+    justify-content: space-between;
+    /* padding:5px; */
+}
+/* ################## header styles ########################### */
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin:5px 0 0 115px;
+height: 50px;
+width: 350px;
+background-color:#dc4e41;
+}
+
+.burger{
+    color: var(--mainWhite);
+    font-size:25px;
+    margin-left:10px;
+}
+.note{
+    width: 70px;
+    display: flex;
+    justify-content: space-around;
+    color: var(--mainWhite);
+    font-size:20px;
+    margin-left:70px;
+}
+.note i:hover{
+    cursor:pointer;
+}
+.profile{
+    width:170px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.profile img{
+    width: 45px;
+    height:45px;
+    border-radius:15px 15px 15px 15px;
+}
+.profile p{
+    color:var(--mainWhite);
+    font-size:15px;
+}
+
+.top-right{
+  position:absolute;
+  border-right:2px solid var(--mainRed);
+  border-bottom:2px solid var(--mainRed);
+  width:113px;
+  top:10px;
+  padding-top:10px;
+  height:35px;
+  align-items: center;
+  background-color:var(--mainRed);
+}
+.top-right h2{
+font-size:18px;
+text-align:center;
+color:var(--mainWhite);
+}
+/*######################## header styles ends here ###########################*/
+
+/*############################### left nav styles ###########################*/
+
+.left-side{
+    /* border: 2px solid red; */
+    height:500px;
+    background-color: var(--dasLeft);
+}
+
+.details{
+    height:100px;
+    display:flex;
+    justify-content: space-between;
+    background-color:var(--dasLeft);
+    padding-top:10px;
+}
+.details img{
+    width: 70px;
+    height: 70px;
+    border-radius: 25px 25px 25px 25px;
+}
+#detail{
+    width:100px;
+    padding:10px;
+    padding-left:25px;
+}
+#detail h3{
+    color:var(--mainWhite);
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+#detail p{
+    width:100px;
+    color:var(--mainWhite);
+    padding-top:10px;
+}
+#detail p span{
+    color:green;
+    background-color:green;
+    border-radius:20px 20px 20px 20px;
+}
+
+/* input style */
+.search{
+    padding:10px;
+    /* height: 40px; */
+    /* width:190px; */
+    background-color:var(--mainWhite);
+}
+.search input{
+    border:none;
+    height: 25px;
+}
+.search i{
+    color:var(--mainGoogle);
+}
+/* input style ends */
+/* nav section styles */
+.links{
+    /* border:2px solid yellow; */
+    margin:10px;
+}
+.links nav ul{
+    list-style-type: none;
+    
+}
+.links nav ul li{
+    /* border:2px solid red; */
+    border-bottom:2px solid var(--main3);
+    padding:10px;
+    height: 30px;
+    text-decoration: none;
+    color:var(--mainWhite);
+    
+}
+.links nav ul li:hover{
+    cursor: pointer;
+}
+.links nav ul li i{
+    padding-right: 20px;
+    font-size:25px;
+}
+/* nav section styles end */
+/* right display section */
+.right-side{
+    display: flex;
+    /* border: 2px solid red; */
+    flex-direction: column;
+    width: 230px;
+    padding:10px;
+    background-color:rgb(245, 236, 236);
+}
+.card{
+    border: 1px solid #fff;
+    /* padding:10px; */
+    margin:20px;
+    display:flex;
+    height:70px;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#fff;
+    border:2px solid whitesmoke;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 2px 1px rgb(182, 177, 177);
+}
+.card .icon{
+    
+    height:70px;
+    width:70px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.card .icon1{
+    background-color: #55acee;
+}
+.card .icon2{
+    background-color: #dc4e41;
+}
+.card .icon3{
+    background-color: #22a531;
+}
+.card .icon4{
+    background-color: #d3cc0b;
+}
+
+
+.card .icon i{
+    font-size:40px;
+    color:#fff;
+}
+.card h3{
+    font-size: 13px;
+    padding-right:15px;
+}
+.card4 h3{
+    padding-right:40px;
+}
+.card h4{
+    font-size:14px;
+    padding:5px;
+}
+/* right display section ends */
+
+/* #################### footer section ########################################## */
+footer{
+    /* border:2px solid black; */
+    height: 90px;
+    background-color:var(--mainRed);
+}
+.foot-note{
+    position:absolute;
+    bottom:40px;
+    right:200px;
+    color:white;
+    font-size:20px;
+}
+
+/* ###################### for big screen ############################## */
+
+@media screen and (min-width: 992px){
+    body{
+        margin: 0 auto;
+    border: 2px solid black;
+    max-width: 1050px;
+    height:650px;
+    }
+    main{
+        display:flex;
+        width: 1048px;
+    }
+    header{
+        height: 80px;
+        width: 935px;
+        }
+        .right-side{
+            width: 815px;
+            background-color:rgb(245, 236, 236);
+        }
+        .top-cards{
+            display: flex;
+            flex-direction: row;
+        }
+        .note{
+            width: 90px;
+            margin-left:470px;
+        }
+        .foot-note{
+            position:absolute;
+            bottom:40px;
+            right:600px;
+            color:white;
+            font-size:20px;
+        }
+}
+/* @media screen and (min-width:750px){
+    body{
+        background-color:yellow;
+    }
+} */
+
+

@@ -85,15 +85,32 @@
   
       const cartMessage = () =>{
         let messageText = "<p>Item added to cart</p>";
-        const cardBottom = document.querySelectorAll('.card-bottom');
-       const bottomText = document.querySelectorAll('.bottom-text');
-        // const total = document.querySelector('.cart-total-container');
-        cardBottom.forEach( things=>{
-          const messageDiv = document.createElement('div');
-          messageDiv.innerHTML = messageText;
-          things.insertBefore(messageDiv,bottomText);
-        })
-  
+        const cardBottom = document.querySelector('.card-bottom');
+        const bottomText = document.querySelector('.bottom-text');
+        const messageDiv = document.createElement('div');
+        messageDiv.innerHTML = messageText;
+        // console.log(messageDiv);
+        cardBottom.insertBefore(messageDiv,bottomText);
+
+        // bottomText.before(messageDiv);
+
+        // cardBottom.forEach(things=>{
+        //   things.appendChild(messageDiv);
+        // })
+        
+        // for(let i = 0; i< cardBottom.length; i++){
+        //   let cardFirstBorn = cardBottom[i].firstElementChild;
+        //   cardFirstBorn.before(messageDiv);
+        // }
+
+      //   cardBottom.forEach(things =>{
+      //   console.log(things);
+      //  })
+
+        
+        // 
+        // console.log(messageDiv);
+
        
   
         // console.log(cardBottom);
